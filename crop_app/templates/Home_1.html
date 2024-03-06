@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Amit Agrotech</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='myhome.css')}}">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 style="color: red;"><i><strong>Amit Agrotech</strong></i></h1>
+      <p style="color: black;"><strong>Greetings from Amit Agrotech on our website. We hope your farm is doing well, but if not, we are here to offer some advice on crop cultivation. 
+        For higher yields, we advise you on which crop to plant on your farm. Knowing the nutrients in your soil is the first step towards growing the crop of your choice; you may test your soil in a lab to find out what nutrients it contains.</strong></p>
+      <br>
+      <h3 style="color: black;">Let's Start New Journey With Amit Agrotech</h3>
+      <br>
+      <h2 style="color: black;">Click button for Smart Crop recommandation</h2>
+    </main>
+     <form action="/Predict">
+      <input type="submit" id="Predict" name="Predict" action="/Predict" value="Predict">
+     </form>
+  </body>
+</html>
